@@ -26,6 +26,7 @@ public class SomarDoisNumeros {
 
 		total = y + x;
 		
+		//aa
 		System.out.printf("Resultado:" + total);
 		
 	}
