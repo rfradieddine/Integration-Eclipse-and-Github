@@ -17,16 +17,21 @@ public class SomarDoisNumeros {
 		
 		Scanner sc = new Scanner (System.in);
 		
+		//declarando variaveis.
 		int x, y, total;
 		
+		//apresentar o primeiro numero a ser somado.
 		System.out.println("Digite um numero:");
 		x = sc.nextInt();
+		
+		//apresentar o primeiro numero a ser somado.
 		System.out.println("Digite um numero:");
 		y = sc.nextInt();
 
+		//soma
 		total = y + x;
 		
-		//aa
+		//resultado aparece na tela do usuario
 		System.out.printf("Resultado:" + total);
 		
 	}
